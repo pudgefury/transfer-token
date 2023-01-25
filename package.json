@@ -1,0 +1,17 @@
+{
+  "name": "airdrop-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  }
+}
